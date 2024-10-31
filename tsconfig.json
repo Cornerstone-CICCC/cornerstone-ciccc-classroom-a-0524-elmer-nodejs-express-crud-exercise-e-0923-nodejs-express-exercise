@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "target": "ES6",
+    "module": "CommonJS",
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"],
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "tsc && nodemon dist/index.js"
+  }
+  
+}
+
